@@ -9,24 +9,9 @@ import img4 from "../../assets/img/indir (1).png";
 const Photo = () => {
   return (
     <div id="iPar">
-      <a href="">
-        <img src={img} alt="" />
-      </a>
-      <a href="">
-        {" "}
-        <img src={img1} alt="" />
-      </a>
-      <a href="">
-        <img src={img2} alt="" />
-      </a>
-      <a href="">
-        {" "}
-        <img src={img3} alt="" />
-      </a>
-      <a href="">
-        {" "}
-        <img src={img4} alt="" />
-      </a>
+      <img src={img} alt="" /> <img src={img1} alt="" />
+      <img src={img2} alt="" /> <img src={img3} alt="" />{" "}
+      <img src={img4} alt="" />
     </div>
   );
 };

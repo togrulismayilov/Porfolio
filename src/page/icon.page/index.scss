@@ -1,0 +1,10 @@
+.iPar {
+  background-color: RGB(10, 9, 8);
+  padding: 20px;
+  .iChild {
+    display: flex;
+    gap: 10px;
+    background-color: RGB(169, 146, 125);
+    color: RGB(10, 9, 8);
+  }
+}

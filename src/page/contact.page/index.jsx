@@ -50,7 +50,6 @@ const Contact = () => {
               className="intoaut"
             />
           </form>
-          <button>Send Message</button>
         </div>
       </div>
     </div>

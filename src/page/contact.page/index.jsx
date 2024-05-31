@@ -2,8 +2,8 @@ import React from "react";
 import "./index.scss";
 const Contact = () => {
   return (
-    <div id="head">
-      <div id="start">
+    <div className="head">
+      <div className="start">
         <h3>Contact Me</h3>
         <p>
           I would love to hear from you! Whether you have a question about my
@@ -12,7 +12,7 @@ const Contact = () => {
           following channels:
         </p>
       </div>
-      <div id="info">
+      <div className="info">
         <div>
           <h4>Have Question</h4>
           <p className="bold">İ am here to help you</p>
@@ -23,7 +23,7 @@ const Contact = () => {
           <p className="bold">Baku , Azerbaijan</p>
           <p className="gray">Serving Clients Worldwide</p>
         </div>
-        <div id="inp">
+        <div className="inp">
           <form action="">
             <input
               type="text"

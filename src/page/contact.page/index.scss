@@ -1,9 +1,9 @@
-#head {
+.head {
   background-color: RGB(26, 26, 26);
   padding: 15px;
   display: flex;
   flex-direction: column;
-  #start {
+  .start {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -11,7 +11,7 @@
     gap: 20px;
     padding: 20px;
   }
-  #info {
+  .info {
     font-family: "PT Sans Narrow", sans-serif;
     display: flex;
     flex-direction: column;
@@ -27,7 +27,7 @@
       color: gray;
     }
   }
-  #inp {
+  .inp {
     display: flex;
     flex-direction: column;
     gap: 10px;

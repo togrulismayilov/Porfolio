@@ -2,8 +2,8 @@ import React from "react";
 import "./index.scss";
 const Contact = () => {
   return (
-    <div className="head">
-      <div className="start">
+    <div className="intohead">
+      <div className="intostart">
         <h3>Contact Me</h3>
         <p>
           I would love to hear from you! Whether you have a question about my
@@ -12,47 +12,45 @@ const Contact = () => {
           following channels:
         </p>
       </div>
-      <div className="info">
+      <div className="intoinfo">
         <div>
           <h4>Have Question</h4>
-          <p className="bold">İ am here to help you</p>
-          <p className="gray">Email Me At Togrul.İsmayilli@Mail.Com</p>
+          <p className="intobold">İ am here to help you</p>
+          <p className="intogray">Email Me At Togrul.İsmayilli@Mail.Com</p>
         </div>
         <div>
           <h4>Current Location</h4>
-          <p className="bold">Baku , Azerbaijan</p>
-          <p className="gray">Serving Clients Worldwide</p>
+          <p className="intobold">Baku , Azerbaijan</p>
+          <p className="intogray">Serving Clients Worldwide</p>
         </div>
-        <div className="inp">
+        <div className="intoinp">
           <form action="">
             <input
               type="text"
               name="name"
               placeholder="Your Name"
-              className="norm"
+              className="intonorm"
             />
             <input
               type="text"
               name="email"
               placeholder="Your Email"
-              className="norm"
+              className="intonorm"
             />
             <input
               type="text"
               name="subject"
               placeholder="Subject"
-              className="norm"
+              className="intonorm"
             />
             <input
               type="text"
               name="message"
               placeholder="Your Message"
-              className="aut"
+              className="intoaut"
             />
           </form>
-          <button>
-            <a href="#">Send Message</a>
-          </button>
+          <button>Send Message</button>
         </div>
       </div>
     </div>
